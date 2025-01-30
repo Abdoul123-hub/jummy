@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+header div img {
+    height: 4.5rem;
+    width: 4.5rem;
+    margin: 1.2rem 1.4rem 0 2.9rem;
+}
+
+.navbar__item {
+    margin-top: 2.4rem;
+}
+.navbar {
+    display: flex;
+    gap: 0.9rem;
+}

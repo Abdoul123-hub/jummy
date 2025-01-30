@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital@0;1&display=swap');
+@import 'modules/header.css';
+@import 'modules/footer.css';
+@import 'variable.css';
+@import 'modules/cta.css';
+@import 'modules/contact.css';
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+text-decoration: none;
+} 
+
+
+body {
+    background-color: var(--light-grey);
+}
