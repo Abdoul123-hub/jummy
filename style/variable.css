@@ -48,3 +48,14 @@ p {
     line-height: var(--body-line-height);
     font-weight: var(--body-font-weight);
 }
+@media (width<768px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 2Opx;
+    }
+    p {
+        font-size: 16px;
+    }
+}

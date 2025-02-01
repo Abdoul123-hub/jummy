@@ -74,6 +74,8 @@ h2{
         margin: 0;
     }
     
-    
+    .h1pa h1 {
+        justify-self: center;
+    }
     
 }
