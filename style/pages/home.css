@@ -5,23 +5,23 @@
     gap: 7.18rem;
     margin-top: 2.25rem ;
 }
-.reseau__sociaux div {
+.reseau__sociaux {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 4.4rem;
+    gap: 4.36rem;
+    margin-left: 17.5rem;
+    margin-right: 17.5rem;
+    margin-top: 2.25rem;
+    justify-content: center;
 }
-.reseau__sociaux{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
 .expertise {
     margin: 0 8.8rem;
     margin-bottom: 4rem;
 }
 h2{
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 .entete {
     display: flex;
@@ -42,4 +42,38 @@ h2{
     padding-left: 18.44rem;
     margin-bottom: 12rem;
 
+}
+.yummy {
+    color:var(--red-highlight);
+}
+#soulignement {
+    text-decoration: underline;
+    text-decoration-color: var(--red-highlight);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+.h1pa a {
+    background-color: var(--black);
+    padding: 0.5rem;
+    color: var(--white);
+}
+@media (width <768px) {
+    .entete {
+        display: flex;
+        flex-direction: column;
+    }
+    .adresse__carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reseau__sociaux {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        margin: 0;
+    }
+    
+    
+    
 }

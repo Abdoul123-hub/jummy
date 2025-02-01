@@ -3,3 +3,42 @@
     margin-bottom: 4.6rem;
     margin-top: 2rem;
 }
+.adresse h1 {
+    padding-top: 2.25rem;
+    padding-bottom: 2.56rem;
+    justify-self: center;
+    justify-content: center;
+}
+.noodle {
+    display: flex;
+    flex-direction: column;
+    width: 18.44rem;
+    height: 6.38rem;
+    justify-self: center;
+}
+.My {
+    display: flex;
+    flex-direction: column;
+    width: 18.44rem;
+    height: 6.38rem;
+    justify-self: center;
+    margin-top: 0.81rem;
+}
+.Nouilles {
+    display: flex;
+    flex-direction: column;
+    width: 18.44rem;
+    height: 6.38rem;
+    justify-self: center;
+    margin-top: 0.81rem;
+    margin-bottom: 4.5rem;
+}
+.contacts h2 {
+    padding-bottom: 1rem;
+}
+#soulignement {
+    text-decoration: underline;
+    text-decoration-color: var(--red-highlight);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}

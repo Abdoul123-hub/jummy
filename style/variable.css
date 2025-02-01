@@ -32,7 +32,7 @@ h1 {
     line-height: var(--body-highlight-line-height);
     font-weight: var(--header-font-weight);
 }
-h2 {
+h2, a {
     font-family: var(--header-font) ;
     font-size: var(--title-font-size);
     line-height: var(--body-highlight-line-height);
