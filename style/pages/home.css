@@ -111,7 +111,9 @@ h2{
     }
     .expertise .h_2 {
         width: 100vw;
+        padding-left: 0.81rem;
         justify-items: center;
+
     }
     .expertise {
         margin: 0;
