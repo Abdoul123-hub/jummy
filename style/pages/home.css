@@ -102,7 +102,19 @@ h2{
     .expertise p {
         width: 16rem;
         height: 18.94rem;
-        justify-self: auto;
+        justify-self: center;
         padding-bottom: 2rem;
+    }
+    .expertise h2 {
+        display: inline;
+        justify-self: center;
+    }
+    .expertise .h_2 {
+        width: 100vw;
+        justify-items: center;
+    }
+    .expertise {
+        margin: 0;
+        padding-bottom: 2.25rem;
     }
 }
