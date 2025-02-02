@@ -1,5 +1,9 @@
 h1 {
     text-transform: uppercase;
+    padding-left: 9.44rem;
+    padding-top: 2.25rem;
+    padding-bottom: 0rem;
+    justify-self: left;
 }
 h2 {
     padding-top: 3.91rem;
@@ -34,6 +38,7 @@ h2 {
     margin-top: 2.25rem;
     margin-bottom: 2.25rem;
 }
+
 .paragraphe_centre {
     justify-self: center;
 }
@@ -69,5 +74,24 @@ h2 {
         margin-bottom: 2.25rem;
         justify-self: center;
     }
-
+    .centre div img {
+        width: 4rem;
+        height: 4rem;
+        padding-top: 1.25rem;
+        
+    }
+    .paragraphe_centre {
+        justify-content: center; /* Centre horizontalement */
+        align-items: center; /* Centre verticalement */
+        text-align: center;
+        padding: 20px; 
+    }
+    h1 {
+        padding-left: 9.56rem;
+        padding-right: 9.5rem;
+        padding-top: 2.25rem;
+        padding-bottom: 0rem;
+        text-transform: uppercase;
+        justify-self: center;
+    }
 }

@@ -3,42 +3,62 @@
     margin-bottom: 4.6rem;
     margin-top: 2rem;
 }
-.adresse h1 {
+h1 {
     padding-top: 2.25rem;
     padding-bottom: 2.56rem;
     justify-self: center;
+ 
+}
+.adresse {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10rem;
+    margin-right: 9.88rem;
     justify-content: center;
+    gap: 2.5rem;
 }
-.noodle {
-    display: flex;
-    flex-direction: column;
-    width: 18.44rem;
-    height: 6.38rem;
-    justify-self: center;
-}
-.My {
-    display: flex;
-    flex-direction: column;
-    width: 18.44rem;
-    height: 6.38rem;
-    justify-self: center;
-    margin-top: 0.81rem;
-}
-.Nouilles {
-    display: flex;
-    flex-direction: column;
-    width: 18.44rem;
-    height: 6.38rem;
-    justify-self: center;
-    margin-top: 0.81rem;
-    margin-bottom: 4.5rem;
+.adresse div {
+    width: 22.063rem;
+    height: 9.063rem;
+    justify-items: left;
 }
 .contacts h2 {
     padding-bottom: 1rem;
+}
+.adresse div h2 {
+    text-decoration: none;
 }
 #soulignement {
     text-decoration: underline;
     text-decoration-color: var(--red-highlight);
     text-decoration-thickness: 3px;
     text-underline-offset: 4px;
+}
+@media (width<768px) {
+    .contacts p {
+        width: 15.1rem;
+        height: 8.81rem;
+        justify-self: center;
+    }
+    div p {
+        justify-content: center; /* Centre horizontalement */
+        align-items: center; /* Centre verticalement */
+        text-align: center;
+    }
+    .adresse {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        justify-content: center;
+    }
+    .adresse div {
+        width: 100%;
+        height: 6.63rem;
+        justify-content: center;
+    }
+    .adresse div h2, p{
+        justify-self: center;
+    }
 }
