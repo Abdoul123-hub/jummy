@@ -70,6 +70,7 @@ h2{
     .entete {
         display: flex;
         flex-direction: column;
+        padding-top: 0rem;
     }
     .adresse__carousel {
         display: flex;
@@ -106,15 +107,10 @@ h2{
         padding-bottom: 2rem;
     }
     .expertise h2 {
-        display: inline;
+        display: block;
         justify-self: center;
     }
-    .expertise .h_2 {
-        width: 100vw;
-        padding-left: 7.81rem;
-        justify-items: center;
-
-    }
+    
     .expertise {
         margin: 0;
         padding-bottom: 2.25rem;
